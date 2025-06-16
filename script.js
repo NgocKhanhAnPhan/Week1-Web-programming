@@ -14,6 +14,8 @@ document.getElementById('add-data').addEventListener('click', () => {
     const newItem = document.createElement('li');
     newItem.textContent = inputText;
     list.appendChild(newItem);
-    document.getElementById('my-textarea').value = ''; // Clear textarea after adding
+    document.getElementById('my-textarea').value = ''; 
   }
 });
+
+
